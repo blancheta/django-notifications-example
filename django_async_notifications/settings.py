@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'z1^ppc0)+gy&_x#ns$+17zi&&1hyfzgl!iycsz&fm*3hwcdb2j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'django-notif.ddns.net']
 
 
 # Application definition
